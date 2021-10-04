@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{ margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif}
+
+#formulario{
+    display: none;
+}
+
+#footerFormText{
+    display: none;
+}
+
+#divLogoMenuAberto{
+    position: absolute;
+    display: none;
+    width: 170px;
+    height: 50px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+
+#bannerSectionMobile{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.imgMobiliePages{
+    width: 100%;
+    display: none;
+}
+
+.topoPages{
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.topo{
+    width: 1224px;
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topo div{
+    width: 10px;
+    height: 26px;
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
+    background-color: #00DEB5;
+}
+
+.topo h1{
+    font-weight: 500;
+    margin-top: 13px;
+    letter-spacing: 0.5px;
+    color: #334444;
+}
+
+.bannerImovel{
+    width: 100%;
+    height: 313px;
+    background-color: #00DEB5; 
+}
+
+.bannerImovelContent{
+    width: 1224px;
+    height: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bannerImovelText{
+    width: 429px;
+    height: 250px;
+    margin-top: 31.5px;
+    float: left;
+    margin-left: 110px;
+}
+
+.bannerImovelImage{
+    width: 460px;
+    height: 198px;
+    margin-top: 57.5px;
+    float: right;
+    margin-right: 120px;
+    transition: 0.5s;
+}
+
+.bannerImovelImage img{
+    transition: 0.5s;
+}
+
+.bannerImovelImage img:hover{
+    margin-top: -25px;
+    transition: 0.5s;
+}
+
+.bannerImovelText h2{
+    font-size: 2.5em;
+    font-weight: 400;
+    color: white; 
+    text-shadow: 2px 2px 1px gray;
+}
+
+.bannerImovelText h1{
+    font-size: 2.5em;
+    color: white;
+    text-shadow: 2px 2px 1px gray;
+}
+
+.bannerImovelText p{
+    font-size: 1.3em;
+    color: #334444;
+}
+
+/* Alteração em 15/09/2021 */
+.bannerAnuncios{
+    width: 1224px;
+    height: 670px;/* 333px */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.bannerAnuncios div{
+    width: 287px;
+    min-width: 287px;
+    min-height: 291px;
+    height: 291px;
+    transition: 0.5s;
+}
+/* Alteração em 15/09/2021 */
+
+.div1:hover{
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.div2:hover{
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.div3:hover{
+    margin-top: -30px;
+    transition: 0.5s;
+}
+
+.div2{
+    margin-left: 40px;
+}
+
+.bannerAnuncios img{
+    border-radius: 10px;
+        -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.13); 
+            box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.13);
+}
+
+.bannerReguaImovel{
+    width: 100%;
+    height: 89px;
+}
+
+.sectionBannerAnuncios{
+    margin-top: 20px;
+    width: 100%;
+    height: 600px;
+    background-image: url("../Images/bannerFundo.png");
+    display: flex;
+}
+
+.sectionBannerAnuncios div{
+    width: 1224px;
+    height: 595px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.banners{
+    display: flex;
+    flex-direction: column; 
+}
+
+.bannersPagesAnimation1{
+    z-index: 2000;
+}
+.bannersPagesAnimation2{
+    z-index: 2000;
+}
+.bannersPagesAnimation3{
+    z-index: 2000;
+}
+
+.banners div{
+    width: 412px;
+    height: 168px;
+    margin-top: 15px;
+    margin-right: 60px;
+    z-index: 2000;
+}
+
+.bannersPagesAnimation1 img{
+    transition: 0.5s;
+}
+.bannersPagesAnimation2 img{
+    transition: 0.5s;
+}
+.bannersPagesAnimation3 img{
+    transition: 0.5s;
+}
+
+.bannersPagesAnimation1 img:hover{
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.bannersPagesAnimation2 img:hover{
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.bannersPagesAnimation3 img:hover{
+    margin-left: 30px;
+    transition: 0.5s;
+}
+
+.imageConsorcios{
+    z-index: 0;
+    position: absolute;  
+}
+
+.imgCasa{
+    margin-left: 360px;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 1780px){
+
+    .imgCasa{
+        margin-left: 260px;
+    }
+}
+@media only screen and (max-width: 1650px){
+
+    .imgCasa{
+        margin-left: 160px;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+
+    .imgCasa{
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 1250px){
+
+
+    .imgMobiliePages{
+        width: 100%;
+        display: block;
+    }
+
+    .banners{
+        margin-bottom: 20px;
+    }
+
+    .sectionBannerAnuncios{
+        margin-bottom: 20px;
+    }
+
+    .space{
+        display: none;
+    }
+
+    #bannerSectionImg{
+        display: none;
+    }
+    
+    .topo{
+        display: none;
+    }
+
+    .bannerImovel{
+        display: none;
+    }
+
+    .topoPages{
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        display: block;
+    }
+
+    #imgPagesRegua{
+        display: none;
+    }
+
+    .sectionBannerAnuncios{
+
+        width: 100%;
+        height: auto;
+        background-color: #F8F8F8;
+        background-image: none;
+    }
+
+    .sectionBannerAnuncios div{
+        width: 500px;
+        height: auto;
+    }
+
+    .imageConsorcios{
+
+        display: none;
+    }
+
+    .bannerSection{
+        margin-top: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 1150px){
+
+    /* Inicio Alteraçao em 15/09/2021 */
+    .bannerAnuncios{
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+        position: relative;
+        min-width: 300px;
+        justify-content: left;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    /* Fim Alteraçao em 15/09/2021 */
+
+    .div1, .div2, .div3{
+        width: 287px;
+        height: 291px;
+        min-width: 287px;
+        min-height: 291px;
+        position: relative;
+        justify-content: left;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    #formulario{
+        display: block;
+    }
+
+    .topoPages{
+        width: 100%;
+    }
+
+    .imgMobiliePages{
+        width: 100%;
+        display: block;
+    }
+
+    .div1:hover{
+        margin-top: 0px;
+    }
+
+    .div2:hover{
+        margin-top: 0px;
+    }
+
+    .div2:hover{
+        margin-top: 0px;
+    }
+
+    #bannerSectionMobile{
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+
+    .bannersPagesAnimation1 img:hover{
+        margin-left: 0px;
+        transition: 0.5s;
+    }
+    
+    .bannersPagesAnimation2 img:hover{
+        margin-left: 0px;
+        transition: 0.5s;
+    }
+    
+    .bannersPagesAnimation3 img:hover{
+        margin-left: 0px;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 560px){
+
+    .sectionBannerAnuncios div{
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 460px){
+
+    .sectionBannerAnuncios div{
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 390px){
+
+    .sectionBannerAnuncios div{
+        width: 300px;
+    }
+}
+
+
+
+
+

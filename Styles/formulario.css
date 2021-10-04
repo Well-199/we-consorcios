@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{ margin: 0px; padding: 0px; font-family: 'Roboto', sans-serif}
+
+.tituloMobilePageFormulario{
+    display: none;
+}
+
+.topo1{
+    width: 1224px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topo1 div{
+    width: 10px;
+    height: 26px;
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
+    background-color: #00DEB5;
+}
+
+.topo1 h1{
+    font-weight: 500;
+    margin-top: 13px;
+    letter-spacing: 0.5px;
+    color: #334444;
+}
+
+.footerFormText2{
+    width: 52%; 
+    height: 511px;
+    background-color: #F8F8F8; 
+    border-radius: 0px 50px 50px 0px; 
+    -webkit-box-shadow: 5px 5px 15px -7px rgba(0,0,0,0.96); 
+    box-shadow: 5px 5px 15px -7px rgba(0,0,0,0.96); 
+    position: absolute;
+}
+
+.footerFormText2 div{
+    float: right; 
+    margin-top: 50px; 
+    margin-right: 40px;
+}
+
+.footerFormText2 h1{
+    font-size: 2.5em; 
+    color: #334444; 
+    font-weight: 400;
+}
+
+.footerFormText2 p{
+    font-size: 1.2em; 
+    font-weight: 500;
+    color: #334444; 
+    margin-top: 15px;
+}
+
+.span{
+    font-weight: 700;
+}
+
+.divImgFormulario{
+    width: 448px;
+    height: 388px;
+    margin-top: -50px;
+}
+
+.imgFormulario{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: -60px;
+}
+
+@media only screen and (max-width: 1260px){
+
+    .formP{
+        display: none;
+    }
+
+    .topo1{
+        display: none;
+    }
+
+    .footerFormText2{
+        display: none;
+    }
+
+    .form{
+        margin-top: -20px;
+    }
+
+    .tituloMobilePageFormulario{
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: #F8F8F8;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .tituloMobilePageFormulario h1{
+        
+        margin-left: 30%;
+        color: #334444;
+        font-weight: 500;
+    }
+
+    .tituloMobilePageFormulario  p{
+        margin-left: 30%;
+        color: #334444;
+    }
+
+    .spanMobile{
+        font-weight: 900;
+    }
+}
+
+@media only screen and (max-width: 944px){
+
+    .tituloMobilePageFormulario h1{
+        margin-left: 25%;
+    }
+
+    .tituloMobilePageFormulario  p{
+        margin-left: 25%;
+    }
+}
+
+@media only screen and (max-width: 750px){
+
+    .tituloMobilePageFormulario h1{
+        margin-left: 20%;
+    }
+
+    .tituloMobilePageFormulario  p{
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 660px){
+
+    .tituloMobilePageFormulario h1{
+        margin-left: 15%;
+    }
+
+    .tituloMobilePageFormulario  p{
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 580px){
+
+    .tituloMobilePageFormulario h1{
+        margin-left: 10%;
+    }
+
+    .tituloMobilePageFormulario  p{
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 570px){
+
+    .tituloMobilePageFormulario{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 480px){
+
+    .tituloMobilePageFormulario h1{
+        margin-left: 5%;
+    }
+
+    .tituloMobilePageFormulario  p{
+        margin-left: 5%;
+    }
+}
+
+
+

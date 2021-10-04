@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{ 
+    margin: 0px;
+    padding: 0px; 
+    font-family: 'Roboto', sans-serif; 
+    scroll-behavior: smooth;
+}
+
+.menuInstitucional{
+    width: 1224px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: solid 1px #333;
+}
+
+.menuInstitucional_ul{
+    width: 900px;
+    height: 60px; 
+    margin-top: -15px;
+}
+
+.menuInstitucional_ul ul li{
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;  
+}
+
+.menuInstitucional_ul ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 10px;
+    color: #333;
+}
+
+.menuInstitucional_ul ul li a:hover{
+    transition: 0.5s;
+    box-shadow:0 3px 10px 0 #CCC;
+            -webkit-box-shadow:0 3px 10px 0 #ccc;
+                text-shadow:0px 0px 5px #fff;
+                border:1px solid #4DE1CA;
+}
+
+.topoInstitucional{
+    width: 1224px;
+    height: 68px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topoInstitucional div{
+    width: 10px;
+    height: 26px;
+    float: left;
+    margin-right: 3px;
+    margin-top: 2px;
+    background-color: #00DEB5;
+}
+
+.topoInstitucional h1{
+    font-weight: 500;
+    margin-top: 13px;
+    letter-spacing: 0.5px;
+    color: #334444;
+}
+
+.institucional{
+    width: 1224px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.institucional h3{
+    font-size: 2.0em;
+    color: #4DE1CA;
+    margin-bottom: 20px;
+}
+
+.institucional h1{
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.institucional h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.institucional strong{
+    margin-top: 20px;
+}
+
+.institucional p{
+    color: #333;
+}
+
+.contact{
+    width: 450px; 
+    height: 450px; 
+    padding-top: 35px; 
+    border-radius: 20px; 
+    -webkit-box-shadow: 5px 5px 15px -7px rgba(0,0,0,0.96); 
+    box-shadow: 5px 5px 15px -7px rgba(0,0,0,0.96);
+}
+
+.contact label{
+    color: #334444;
+}
+
+.nome1{
+    width: 80%; 
+    height: 50px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.nome1 input{
+    width: 100%; 
+    height: 37px; 
+    border-color: #00DEB5; 
+    border-radius: 8px;
+}
+
+.telefone1{
+    width: 80%; 
+    height: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+}
+
+.telefone1 input{
+    width: 100%; 
+    height: 37px; 
+    border-color: #00DEB5; 
+    border-radius: 8px;
+}
+
+.cargo{
+    width: 80%; 
+    height: 30px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.cargo select{
+    width: 120px;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+    color: #334444;
+}
+
+#alerta{
+    width: 300px; 
+    height: 20px; 
+    padding: 5px; 
+    display: none; 
+    margin-top: 2px; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border-radius: 5px; 
+    background-color: yellow;
+}
+
+#alerta label{
+    font-weight: bold;
+}
+
+.email1{
+    width: 80%; 
+    height: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+}
+
+.email1 input{
+    width: 100%; 
+    height: 37px; 
+    border-color: #00DEB5; 
+    border-radius: 8px;
+}
+
+.mensagem{
+    width: 80%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.mensagem textarea{
+    width: 100%;
+    height: 80px;
+    border-color: #00DEB5;
+    border-radius: 8px;
+    border-width: 2px;
+}
+
+.buttonNext1 button{
+    width: 150px;
+    margin-top: 50px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+.buttonNext1{
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center;
+    
+}
+
+#nextMsg1{
+    width: 80%;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    display: none;
+    
+}
+
+#nextMsg1 h4{
+    text-align: center;
+   
+    
+}
+
+.buttonNext2{
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 20px; 
+    text-align: center;
+}
+
+.buttonNext2 button{
+    width: 150px;
+    margin-top: 50px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.nextMsg2{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    text-align: center;
+    display: none;
+}
+
+.nextMsg2 h4{
+    text-align: center;
+}
+
+.contact2{
+    width: 450px; 
+    height: 600px; 
+    padding-top: 35px; 
+    border-radius: 20px; 
+    -webkit-box-shadow: 5px 5px 15px -7px rgba(0,0,0,0.96); 
+    box-shadow: 5px 5px 15px -7px rgba(0,0,0,0.96);
+}
+
+.perfil1{
+    width: 80%; 
+    height: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+}
+
+.perfil1 input{
+    width: 100%; 
+    height: 37px; 
+    border-color: #00DEB5; 
+    border-radius: 8px;
+}
+
+.curriculo1{
+    width: 80%; 
+    height: 50px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 1250px){
+
+    .topoInstitucional{
+        width: 100%;
+        
+    }
+
+    .institucional{
+        width: 96%;
+    }
+
+    .menuInstitucional{
+        width: 100%;
+    }
+
+}
+/* Inicio Alteracao em 16/09/2021 */
+@media only screen and (max-width: 950px){
+
+    .menuInstitucional_ul{
+        width: 790px;
+    }
+}
+/* Fim Alteracao em 16/09/2021 */
+
+@media only screen and (max-width: 767px){
+
+    .menuInstitucional_ul{
+        display: none;
+    }
+
+    .menuInstitucional{
+        height: 50px;
+    }
+
+    .topoInstitucional div{
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+
+    .contact{
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact2{
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .trabalheConoscoText{
+        text-align: center;
+    }
+}
+
+
+
